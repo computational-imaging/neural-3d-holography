@@ -96,7 +96,7 @@ Then, let's display and massively capture all of them for all planes.
 ```
 for i in 0 1 ... 7
 do
-python capture_dataset.py --channel=$c --plane_idx=i
+python dataset_capture.py --channel=$c --plane_idx=i
 done
 ```
 We also release a subset of our dataset which you can download from here: [[Big Dataset (~220GB)]](https://drive.google.com/file/d/1E9ppFPwueGwRTG9yRk9wbB3Xy7eOOGOI/view?usp=sharing), [[Small Dataset (~60GB)]](https://drive.google.com/file/d/1EC2pzHlsB_P_braGc1r71oKt9vlmwzlq/view?usp=sharing)..
